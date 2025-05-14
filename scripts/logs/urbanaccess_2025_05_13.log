@@ -1,0 +1,12 @@
+2025-05-13 21:35:08,476 INFO urbanaccess Checking GTFS text file header whitespace... Reading files using encoding: utf-8 set in configuration.
+2025-05-13 21:36:27,785 INFO urbanaccess Checking GTFS text file header whitespace... Reading files using encoding: utf-8 set in configuration.
+2025-05-13 21:44:54,266 INFO urbanaccess Checking GTFS text file header whitespace... Reading files using encoding: utf-8 set in configuration.
+2025-05-13 21:44:56,115 INFO urbanaccess GTFS text file header whitespace check completed. Took 1.85 seconds
+2025-05-13 21:44:56,115 INFO urbanaccess --------------------------------
+2025-05-13 21:44:56,115 INFO urbanaccess Processing GTFS feed: tmpp2xumlqb
+2025-05-13 21:45:02,701 WARNING urbanaccess C:\Users\brand\AppData\Local\Temp\tmpp2xumlqb\calendar_dates.txt has no records. This could indicate that this feed is using calendar.txt for service_ids.
+2025-05-13 21:45:15,147 INFO urbanaccess agency.txt agency_name column has more than one agency name listed. Unique agency id was assigned using the agency id and associated agency name.
+2025-05-13 21:45:15,344 INFO urbanaccess Unique agency id operation complete. Took 12.64 seconds
+2025-05-13 21:45:15,494 INFO urbanaccess Unique GTFS feed id operation complete. Took 0.03 seconds
+2025-05-13 21:45:17,009 INFO urbanaccess Appended route type to stops
+2025-05-13 21:45:18,020 INFO urbanaccess Appended route type to stop_times
