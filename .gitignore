@@ -1,6 +1,11 @@
-database
-scripts/test_geospa.ipynb
-scripts/pdpbox_regression.ipynb
-outputs
-geospann
 old
+
+database/4. Dados Operacionais do Transporte/GTFS/all_gtfs.zip
+database/4. Dados Operacionais do Transporte/GTFS/all_gtfs_morning_peak.zip
+database/4. Dados Operacionais do Transporte/GTFS/complete_gtfs.zip
+database/4. Dados Operacionais do Transporte/GTFS/gtfs_intermunicipal_leste_morning_peak.zip
+database/4. Dados Operacionais do Transporte/GTFS/gtfs_intermunicipal_leste.zip
+database/4. Dados Operacionais do Transporte/GTFS/gtfs_municipal_leste.zip
+database/4. Dados Operacionais do Transporte/GTFS/gtfs_municipal_leste_morning_peak.zip
+
+outputs/oportunidades/tempos_de_viagem
