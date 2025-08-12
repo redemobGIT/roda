@@ -1,7 +1,3 @@
-Aqui está uma proposta de **README.md** em **português**, já formatada em **Markdown** e alinhada ao escopo do repositório e ao guia que você anexou.
-
----
-
 # RODA — Diagnóstico Urbano e Mobilidade
 
 **Notebooks e utilitários para descrever o ambiente urbano e analisar mobilidade, acessibilidade e desigualdades socioespaciais.**
