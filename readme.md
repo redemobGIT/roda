@@ -8,15 +8,12 @@ Projeto no âmbito do **MOB 4.0**, com apoio de **FAPERJ** e **FAPEMIG**, em par
 * [Visão geral](#visão-geral)
 * [Escopo do repositório](#escopo-do-repositório)
 * [Principais métodos](#principais-métodos)
-* [Entradas de dados](#entradas-de-dados)
 * [Requisitos e instalação](#requisitos-e-instalação)
-* [Início rápido](#início-rápido)
-* [Boas práticas e reprodutibilidade](#boas-práticas-e-reprodutibilidade)
-* [Roadmap](#roadmap)
 * [Contribuição](#contribuição)
 * [Como citar](#como-citar)
 * [Financiamento e parcerias](#financiamento-e-parcerias)
 * [Licença](#licença)
+* [Estado do projeto](#estado-do-projeto)
 
 ## Visão geral
 
