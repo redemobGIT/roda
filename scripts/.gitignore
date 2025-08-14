@@ -1,2 +1,4 @@
 .env
 gtfs_merger.ipynb
+.ipynb_checkpoints
+cache

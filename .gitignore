@@ -1,4 +1,7 @@
-old
+.ipynb_checkpoints
+.vscode
+
+scripts/old
 
 database/4. Dados Operacionais do Transporte/GTFS/all_gtfs.zip
 database/4. Dados Operacionais do Transporte/GTFS/all_gtfs_morning_peak.zip
@@ -10,3 +13,5 @@ database/4. Dados Operacionais do Transporte/GTFS/gtfs_municipal_leste_morning_p
 
 outputs/oportunidades/tempos_de_viagem
 outputs/cityseer
+
+
