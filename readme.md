@@ -35,9 +35,9 @@ A estrutura pode evoluir, mas parte das seguintes frentes:
 roda/
 ├─ tutoriais/              # Documentos contextualizadores de cada script e guia de instalação
 ├─ scripts/                # Notebooks temáticos (acessibilidade, GTFS, rede, etc.)
-├─ database/               # Esquemas, tabelas auxiliares, metadados
-├─ data/                   # alguns insumos brutos e processados
+├─ database/               # Esquemas, tabelas auxiliares, metadados, alguns insumos brutos e processados
 ├─ outputs/                # Figuras, mapas e tabelas geradas (opcional)
+├─ ambiente_roda.yaml      # Lista completa de bibliotecas principais e acessórias para bom funcionamento dos scripts
 └─ README.md               # Este documento
 ```
 
@@ -64,7 +64,7 @@ Dependências típicas:
 * Cadernos e utilidades: `jupyterlab`, `ipykernel`, `tqdm`
 * (Opcional – nuvem): `google-cloud-bigquery`, `pandas-gbq`
 
-> Um arquivo `environment.yml` facilita a instalação de dependêncas. Ele possui a lista completa das bibliotecas necessárias utilizadas para rodar os scripts, garantir a compatibilidade de bibliotecas e a reprodutibilidade dos resultados.
+> O arquivo `ambiente_roda.yml` facilita a instalação de dependêncas. Ele possui a lista completa das bibliotecas necessárias utilizadas para rodar os scripts, garantir a compatibilidade de bibliotecas e a reprodutibilidade dos resultados.
 
 > Na pasta tutoriais há um guia de instalação voltado para iniciantes
 
@@ -94,15 +94,18 @@ Este trabalho integra o **MOB – Mobilidade Urbana 4.0** com apoio de **FAPERJ*
 
 ## ESTADO DO PROJETO
 
-Este repositório encontra-se em versão alpha. Há notebooks e utilitários já funcionais, mas a estrutura, nomes de funções/colunas, parâmetros e outputs podem mudar a qualquer momento. Mudanças frequentes e adições substanciais são esperadas nas próximas iterações.
+Este repositório encontra-se em versão alpha. Há notebooks e utilitários já funcionais, mas a estrutura, nomes de funções/colunas, parâmetros e outputs podem mudar a qualquer momento. Mudanças frequentes e adições substanciais são esperadas nas próximas versões.
 
 O que significa “alpha” aqui
 
-    Utilidade: fluxos principais (diagnósticos GTFS, acessibilidade, H3, indicadores socioespaciais) já produzem resultados.
+    Utilidade: fluxos principais (diagnósticos GTFS, acessibilidade, H3,
+    indicadores socioespaciais) já produzem resultados.
 
-    Estabilidade incompleta: sem garantia de compatibilidade entre versões; refatorações e reorganização de pastas são prováveis.
+    Estabilidade incompleta: sem garantia de compatibilidade entre versões;
+    refatorações e reorganização de pastas são prováveis.
 
-    Cobertura de testes: parcial; prioriza-se evolução metodológica e documentação de uso.
+    Cobertura de testes: parcial; prioriza-se evolução metodológica e
+    documentação de uso.
 
     Documentação: em expansão; exemplos e guias “passo a passo” serão ampliados.
 
@@ -118,7 +121,8 @@ O que significa “alpha” aqui
 
 **Feedback e suporte**
 
-    Problemas e sugestões: abra uma issue descrevendo contexto, dados de entrada, passos para reproduzir e tracebacks (quando houver).
+    Problemas e sugestões: abra uma issue descrevendo contexto, dados de entrada,
+    passos para reproduzir e tracebacks (quando houver).
 
     Contribuições: pull requests são bem-vindos.
 
