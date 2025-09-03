@@ -8,7 +8,6 @@ channels:
 dependencies:
   - _libavif_api=1.3.0=h57928b3_0
   - _openmp_mutex=4.5=2_gnu
-  - _py-xgboost-mutex=2.0=cpu_2
   - affine=2.3.0=pyhd3eb1b0_0
   - alabaster=0.7.16=py311haa95532_0
   - alembic=1.15.2=py311haa95532_0
@@ -97,7 +96,6 @@ dependencies:
   - fasteners=0.16.3=pyhd3eb1b0_0
   - filelock=3.17.0=py311haa95532_0
   - fiona=1.10.1=py311haedb144_3
-  - flaml=2.3.5=pyhd8ed1ab_0
   - flask=3.1.0=py311haa95532_0
   - fmt=11.1.4=h5f12afc_1
   - folium=0.20.0=pyhd8ed1ab_0
@@ -274,7 +272,6 @@ dependencies:
   - nest-asyncio=1.6.0=py311haa95532_0
   - networkx=3.4.2=py311haa95532_0
   - notebook-shim=0.2.4=py311haa95532_0
-  - numba=0.61.0=py311h5da7b33_1
   - numexpr=2.8.7=mkl_py311h9a3bfb6_3
   - numpy=1.26.4=py311h0b4df5a_0
   - numpydoc=1.7.0=py311haa95532_0
@@ -297,7 +294,6 @@ dependencies:
   - partd=1.4.2=py311haa95532_0
   - patsy=1.0.1=py311haa95532_0
   - pcre2=10.45=h99c9b8b_0
-  - pdpbox=0.3.0=pyhd8ed1ab_1
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=11.2.1=py311h43e43bb_0
   - pip=25.1=pyhc872135_2
@@ -320,7 +316,6 @@ dependencies:
   - py-cpuinfo=9.0.0=py311haa95532_0
   - pyarrow=19.0.1=py311h1ea47a8_0
   - pycparser=2.21=pyhd3eb1b0_0
-  - pygam=0.9.1=pyhd8ed1ab_1
   - pygments=2.19.1=py311haa95532_0
   - pyogrio=0.11.0=py311haedb144_0
   - pyparsing=3.2.0=py311haa95532_0
@@ -421,7 +416,6 @@ dependencies:
   - tqdm=4.67.1=py311h746a85d_0
   - traitlets=5.14.3=py311haa95532_0
   - traittypes=0.2.1=py311haa95532_0
-  - tslearn=0.6.3=py311h0a17f05_4
   - types-python-dateutil=2.9.0.20250516=pyhd8ed1ab_0
   - typing-extensions=4.12.2=py311haa95532_0
   - typing_extensions=4.12.2=py311haa95532_0
@@ -470,8 +464,6 @@ dependencies:
       - db-dtypes==1.4.2
       - fastrlock==0.8.3
       - geobr==0.2.2
-      - geoshapley==0.1.0.0
-      - gnnwr==0.1.16
       - google-api-core==2.24.2
       - google-api-python-client==2.167.0
       - google-auth==2.39.0
@@ -503,7 +495,6 @@ dependencies:
       - markdown==3.8
       - matplotlib-map-utils==3.0.0
       - oauthlib==3.2.2
-      - optuna-integration==4.3.0
       - pandas-gbq==0.28.0
       - partridge==1.1.2
       - peartree==0.6.4
@@ -520,8 +511,6 @@ dependencies:
       - shap==0.47.2
       - slicer==0.0.8
       - sympy==1.13.1
-      - tensorboard==2.19.0
-      - tensorboard-data-server==0.7.2
       - time-machine==2.16.0
       - tol-colors==1.4.0
       - tomlkit==0.11.8
@@ -529,4 +518,3 @@ dependencies:
       - uritemplate==4.1.1
       - utm==0.8.1
       - win32-setctime==1.2.0
-prefix: C:\Users\brand\anaconda3\envs\roda
