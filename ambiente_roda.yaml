@@ -8,7 +8,6 @@ channels:
 dependencies:
   - _libavif_api=1.3.0=h57928b3_0
   - _openmp_mutex=4.5=2_gnu
-  - _py-xgboost-mutex=2.0=cpu_2
   - affine=2.3.0=pyhd3eb1b0_0
   - alabaster=0.7.16=py311haa95532_0
   - alembic=1.15.2=py311haa95532_0
@@ -71,7 +70,6 @@ dependencies:
   - contextily=1.6.2=pyhd8ed1ab_1
   - contourpy=1.3.1=py311h214f63a_0
   - cpython=3.11.12=py311hd8ed1ab_0
-  - cuda-version=12.6=h7480c83_3
   - cycler=0.11.0=pyhd3eb1b0_0
   - cykhash=2.0.1=py311h12c1d0e_2
   - cython=3.1.1=py311h34f20a9_1
@@ -98,7 +96,6 @@ dependencies:
   - fasteners=0.16.3=pyhd3eb1b0_0
   - filelock=3.17.0=py311haa95532_0
   - fiona=1.10.1=py311haedb144_3
-  - flaml=2.3.5=pyhd8ed1ab_0
   - flask=3.1.0=py311haa95532_0
   - fmt=11.1.4=h5f12afc_1
   - folium=0.20.0=pyhd8ed1ab_0
@@ -178,10 +175,6 @@ dependencies:
   - libabseil=20250127.1=cxx17_h4eb7d71_0
   - libaec=1.1.3=hcdb6601_0
   - libarchive=3.7.7=h5343c79_4
-  - libarrow=19.0.1=he744d6e_7_cuda
-  - libarrow-acero=19.0.1=h7d8d6a5_7_cuda
-  - libarrow-dataset=19.0.1=h7d8d6a5_7_cuda
-  - libarrow-substrait=19.0.1=hb76e781_7_cuda
   - libavif16=1.3.0=hf2698fe_0
   - libblas=3.9.0=18_win64_mkl
   - libboost=1.86.0=hb0986bb_3
@@ -227,7 +220,6 @@ dependencies:
   - liblapack=3.9.0=18_win64_mkl
   - liblzma=5.8.1=h2466b09_1
   - libnetcdf=4.9.2=nompi_he045f6b_117
-  - libparquet=19.0.1=ha850022_7_cuda
   - libpng=1.6.47=h7a4582a_0
   - libpq=17.4=h9087029_1
   - libprotobuf=5.29.3=he9d8c4a_1
@@ -245,7 +237,6 @@ dependencies:
   - libwebp-base=1.5.0=h3b0e114_0
   - libwinpthread=12.0.0.r4.gg4f2fc60ca=h57928b3_9
   - libxcb=1.17.0=h0e4246c_0
-  - libxgboost=3.0.2=cuda128_hace5437_0
   - libxml2=2.13.8=h442d1da_0
   - libxslt=1.1.41=h0739af5_0
   - libzip=1.11.2=h3135430_0
@@ -281,7 +272,6 @@ dependencies:
   - nest-asyncio=1.6.0=py311haa95532_0
   - networkx=3.4.2=py311haa95532_0
   - notebook-shim=0.2.4=py311haa95532_0
-  - numba=0.61.0=py311h5da7b33_1
   - numexpr=2.8.7=mkl_py311h9a3bfb6_3
   - numpy=1.26.4=py311h0b4df5a_0
   - numpydoc=1.7.0=py311haa95532_0
@@ -304,7 +294,6 @@ dependencies:
   - partd=1.4.2=py311haa95532_0
   - patsy=1.0.1=py311haa95532_0
   - pcre2=10.45=h99c9b8b_0
-  - pdpbox=0.3.0=pyhd8ed1ab_1
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=11.2.1=py311h43e43bb_0
   - pip=25.1=pyhc872135_2
@@ -325,11 +314,8 @@ dependencies:
   - pthread-stubs=0.3=h3c9f919_1
   - pure_eval=0.2.2=pyhd3eb1b0_0
   - py-cpuinfo=9.0.0=py311haa95532_0
-  - py-xgboost=3.0.2=cuda128_pyhee1328b_0
   - pyarrow=19.0.1=py311h1ea47a8_0
-  - pyarrow-core=19.0.1=py311hd904a4f_0_cuda
   - pycparser=2.21=pyhd3eb1b0_0
-  - pygam=0.9.1=pyhd8ed1ab_1
   - pygments=2.19.1=py311haa95532_0
   - pyogrio=0.11.0=py311haedb144_0
   - pyparsing=3.2.0=py311haa95532_0
@@ -430,7 +416,6 @@ dependencies:
   - tqdm=4.67.1=py311h746a85d_0
   - traitlets=5.14.3=py311haa95532_0
   - traittypes=0.2.1=py311haa95532_0
-  - tslearn=0.6.3=py311h0a17f05_4
   - types-python-dateutil=2.9.0.20250516=pyhd8ed1ab_0
   - typing-extensions=4.12.2=py311haa95532_0
   - typing_extensions=4.12.2=py311haa95532_0
@@ -457,7 +442,6 @@ dependencies:
   - x265=3.5=h2d74725_3
   - xarray=2024.11.0=py311haa95532_0
   - xerces-c=3.2.5=he0c23c2_2
-  - xgboost=3.0.2=cuda128_pyh68bd8d9_0
   - xlrd=2.0.1=pyhd3eb1b0_1
   - xlsxwriter=3.2.3=py311haa95532_0
   - xorg-libxau=1.0.12=h0e40799_0
@@ -477,12 +461,9 @@ dependencies:
       - cartopy==0.24.1
       - cityseer==4.21.1
       - crossfire==1.1.0
-      - cupy-cuda12x==13.4.1
       - db-dtypes==1.4.2
       - fastrlock==0.8.3
       - geobr==0.2.2
-      - geoshapley==0.1.0.0
-      - gnnwr==0.1.16
       - google-api-core==2.24.2
       - google-api-python-client==2.167.0
       - google-auth==2.39.0
@@ -514,7 +495,6 @@ dependencies:
       - markdown==3.8
       - matplotlib-map-utils==3.0.0
       - oauthlib==3.2.2
-      - optuna-integration==4.3.0
       - pandas-gbq==0.28.0
       - partridge==1.1.2
       - peartree==0.6.4
@@ -531,16 +511,10 @@ dependencies:
       - shap==0.47.2
       - slicer==0.0.8
       - sympy==1.13.1
-      - tensorboard==2.19.0
-      - tensorboard-data-server==0.7.2
       - time-machine==2.16.0
       - tol-colors==1.4.0
       - tomlkit==0.11.8
-      - torch==2.6.0+cu126
-      - torchaudio==2.6.0+cu126
-      - torchvision==0.21.0+cu126
       - unicode==2.9
       - uritemplate==4.1.1
       - utm==0.8.1
       - win32-setctime==1.2.0
-prefix: C:\Users\brand\anaconda3\envs\roda
